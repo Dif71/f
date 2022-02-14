@@ -48,5 +48,5 @@ exec 2> >(exec cat >&2)
 # Note: exec -a below is a bashism.
 # exec -a "$0" "$HERE/chrome" "$@"
 # exec -a “$0” “$HERE/chrome” “$@” –user-data-dir –no-sandbox
-exec -a “$0” “$HERE/chrome” “$@” -–no-sandbox
+exec -a "$0" "$HERE/chrome" "$@" -–no-sandbox
 
